@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+#header {
+  position: fixed;
+  top: 0;
+  font-family: 'Questrial', sans-serif;
+  height: 50px;
+  width: 100vw;
+  background: navy;
+  z-index: 1;
+}
+
+#Page {
+  font-family: 'Questrial', sans-serif;
+  width: 100vw;
+  margin-top: 55px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+#chart-section {
+  max-width: 75vw;
+  z-index: 0;
+}
+
+.drop-down {
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  margin: 25px 25px 45px 25px;
+  width: 350px;
+}
